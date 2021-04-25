@@ -8,6 +8,7 @@
 
     <com.yehia.mira_calendar_date_range.customviews.CustomTextView
         android:id="@+id/dayOfMonthText"
+
         style="@style/DayOfMonthStyle"
         android:text="0" />
 
