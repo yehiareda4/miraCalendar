@@ -17,8 +17,7 @@ import com.archit.calendardaterangepicker.R.layout
 import com.archit.calendardaterangepicker.models.CalendarStyleAttrImpl
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
 import java.text.DateFormatSymbols
-import java.util.Calendar
-import java.util.Locale
+import java.util.*
 
 class DateRangeCalendarView : LinearLayout, DateRangeCalendarViewApi {
     private lateinit var tvYearTitle: CustomTextView

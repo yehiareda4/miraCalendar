@@ -3,8 +3,7 @@ package com.archit.calendardaterangepicker.customviews
 import com.archit.calendardaterangepicker.customviews.DateTiming.END
 import com.archit.calendardaterangepicker.customviews.DateTiming.START
 import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
+import java.util.*
 
 enum class DateTiming {
     NONE,

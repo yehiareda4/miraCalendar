@@ -1,6 +1,6 @@
 package com.archit.calendardaterangepicker.customviews
 
-import java.util.Calendar
+import java.util.*
 
 interface CalendarDateRangeManager {
 

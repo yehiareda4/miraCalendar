@@ -2,19 +2,13 @@ package com.archit.calendardaterangepicker.customviews
 
 import android.util.Log
 import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.IN_SELECTED_RANGE
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.LAST_DATE
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.START_DATE
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.START_END_SAME
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.UNKNOWN
+import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.*
 import com.archit.calendardaterangepicker.customviews.DateTiming.END
 import com.archit.calendardaterangepicker.customviews.DateTiming.START
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FREE_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.SINGLE
-import java.util.Calendar
+import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.*
+import java.util.*
 
 internal class CalendarDateRangeManagerImpl(startMonthDate: Calendar,
                                             endMonthDate: Calendar,

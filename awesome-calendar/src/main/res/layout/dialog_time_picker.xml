@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="@dimen/_180sdp"
     android:background="#FFFFFF">
 
     <RelativeLayout
@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:padding="8dp">
+        android:padding="@dimen/_6sdp">
 
         <com.archit.calendardaterangepicker.customviews.CustomTextView
             android:id="@+id/tvHeaderTitle"
@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:text="@string/title_time_picker"
             android:textColor="@color/default_date_color"
-            android:textSize="18sp"
+            android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
 
         <com.archit.calendardaterangepicker.customviews.CustomTextView
@@ -27,18 +27,18 @@
             android:layout_height="wrap_content"
             android:text="@string/cancel"
             android:textColor="@color/default_date_color"
-            android:textSize="18sp"
+            android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
 
         <com.archit.calendardaterangepicker.customviews.CustomTextView
             android:id="@+id/tvHeaderDone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:text="@string/done"
             android:textColor="@color/default_date_color"
-            android:textSize="18sp"
+            android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
 
     </RelativeLayout>
@@ -50,28 +50,28 @@
         android:gravity="center">
 
         <!--<NumberPicker-->
-            <!--android:id="@+id/pickerHours"-->
-            <!--android:layout_width="60dp"-->
-            <!--android:layout_height="match_parent">-->
+        <!--android:id="@+id/pickerHours"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent">-->
 
         <!--</NumberPicker>-->
 
         <!---->
         <!---->
         <!--<NumberPicker-->
-            <!--android:id="@+id/pickerMins"-->
-            <!--android:layout_width="60dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_toRightOf="@id/pickerHours">-->
+        <!--android:id="@+id/pickerMins"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toRightOf="@id/pickerHours">-->
 
         <!--</NumberPicker>-->
 
         <TimePicker
             android:id="@+id/timePicker"
             android:layout_width="match_parent"
-            android:timePickerMode="spinner"
+            android:layout_height="match_parent"
             android:numbersTextColor="@color/calendar_text"
-            android:layout_height="match_parent">
+            android:timePickerMode="spinner">
 
         </TimePicker>
 

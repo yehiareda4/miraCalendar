@@ -11,7 +11,7 @@ import android.widget.TimePicker
 import com.archit.calendardaterangepicker.R.id
 import com.archit.calendardaterangepicker.R.layout
 import com.archit.calendardaterangepicker.customviews.CustomTextView
-import java.util.Calendar
+import java.util.*
 
 class AwesomeTimePickerDialog(context: Context, private val mTitle: String, private val onTimeChangedListener: TimePickerCallback) : Dialog(context) {
     private lateinit var tvDialogDone: CustomTextView
@@ -23,6 +23,7 @@ class AwesomeTimePickerDialog(context: Context, private val mTitle: String, priv
         fun onTimeSelected(hours: Int, mins: Int)
         fun onCancel()
     }
+
     companion object {
         private val LOG_TAG = AwesomeTimePickerDialog::class.java.simpleName
     }

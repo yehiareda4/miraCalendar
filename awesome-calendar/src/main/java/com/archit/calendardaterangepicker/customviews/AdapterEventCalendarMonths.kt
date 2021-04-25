@@ -9,7 +9,7 @@ import androidx.viewpager.widget.PagerAdapter
 import com.archit.calendardaterangepicker.R.id
 import com.archit.calendardaterangepicker.R.layout
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
-import java.util.Calendar
+import java.util.*
 
 internal class AdapterEventCalendarMonths(private val mContext: Context,
                                           calendarDateRangeManager: CalendarDateRangeManagerImpl,

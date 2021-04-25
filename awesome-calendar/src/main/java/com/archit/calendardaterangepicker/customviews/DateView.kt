@@ -4,8 +4,7 @@ import android.graphics.Typeface
 import android.view.View
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
 import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
+import java.util.*
 
 interface DateView {
 

@@ -15,21 +15,13 @@ import androidx.core.content.ContextCompat
 import com.archit.calendardaterangepicker.R
 import com.archit.calendardaterangepicker.R.drawable
 import com.archit.calendardaterangepicker.customviews.DateView.DateState
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.DISABLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.END
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.HIDDEN
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.MIDDLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.SELECTABLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.START
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.START_END_SAME
+import com.archit.calendardaterangepicker.customviews.DateView.DateState.*
 import com.archit.calendardaterangepicker.customviews.DateView.OnDateClickListener
 import com.archit.calendardaterangepicker.models.CalendarStyleAttrImpl
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
 import java.text.ParseException
 import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Date
-import java.util.Locale
+import java.util.*
 
 
 class CustomDateView @JvmOverloads constructor(

@@ -4,21 +4,35 @@
     android:layout_height="wrap_content"
     android:baselineAligned="false"
     android:gravity="center_horizontal"
-    android:minHeight="@dimen/weekRowMinHeight"
+    android:minHeight="@dimen/_34sdp"
     android:orientation="horizontal">
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView style="@style/ContainerDayOfWeek" />
+    <com.archit.calendardaterangepicker.customviews.CustomDateView
+        style="@style/ContainerDayOfWeek"
+        android:layout_weight="1" />
 
 </LinearLayout>

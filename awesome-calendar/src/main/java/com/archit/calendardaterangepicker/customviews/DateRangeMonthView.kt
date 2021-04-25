@@ -10,30 +10,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import com.archit.calendardaterangepicker.R
-import com.archit.calendardaterangepicker.R.array
-import com.archit.calendardaterangepicker.R.layout
-import com.archit.calendardaterangepicker.R.string
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.IN_SELECTED_RANGE
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.LAST_DATE
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.START_DATE
+import com.archit.calendardaterangepicker.R.*
+import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.*
 import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.START_END_SAME
 import com.archit.calendardaterangepicker.customviews.DateTiming.NONE
 import com.archit.calendardaterangepicker.customviews.DateView.Companion.getContainerKey
 import com.archit.calendardaterangepicker.customviews.DateView.DateState
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.DISABLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.END
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.HIDDEN
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.MIDDLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.SELECTABLE
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.START
+import com.archit.calendardaterangepicker.customviews.DateView.DateState.*
 import com.archit.calendardaterangepicker.customviews.DateView.OnDateClickListener
 import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FREE_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.SINGLE
+import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.*
 import com.archit.calendardaterangepicker.timepicker.AwesomeTimePickerDialog
 import com.archit.calendardaterangepicker.timepicker.AwesomeTimePickerDialog.TimePickerCallback
-import java.util.Calendar
+import java.util.*
 
 /**
  * Created by archit.shah on 08/09/2017.
