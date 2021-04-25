@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:baselineAligned="false"
     android:gravity="center_horizontal"
-    android:minHeight="@dimen/_34sdp"
+    android:minHeight="@dimen/_30sdp"
     android:orientation="horizontal">
 
     <com.yehia.mira_calendar_date_range.customviews.CustomDateView
