@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker.models
+package com.yehia.mira_calendar_date_range.models
 
 import android.graphics.Typeface
 import android.graphics.drawable.Drawable

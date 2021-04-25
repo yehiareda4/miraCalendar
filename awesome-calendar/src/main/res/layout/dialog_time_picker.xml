@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/_180sdp"
     android:background="#FFFFFF">
@@ -11,7 +12,7 @@
         android:gravity="center_vertical"
         android:padding="@dimen/_6sdp">
 
-        <com.archit.calendardaterangepicker.customviews.CustomTextView
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
             android:id="@+id/tvHeaderTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,7 +22,7 @@
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
 
-        <com.archit.calendardaterangepicker.customviews.CustomTextView
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
             android:id="@+id/tvHeaderCancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,16 +31,16 @@
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
 
-        <com.archit.calendardaterangepicker.customviews.CustomTextView
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
             android:id="@+id/tvHeaderDone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:text="@string/done"
             android:textColor="@color/default_date_color"
             android:textSize="@dimen/_12sdp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
 
     </RelativeLayout>
 
@@ -49,23 +50,6 @@
         android:layout_below="@id/rlTimePickerContainer"
         android:gravity="center">
 
-        <!--<NumberPicker-->
-        <!--android:id="@+id/pickerHours"-->
-        <!--android:layout_width="60dp"-->
-        <!--android:layout_height="match_parent">-->
-
-        <!--</NumberPicker>-->
-
-        <!---->
-        <!---->
-        <!--<NumberPicker-->
-        <!--android:id="@+id/pickerMins"-->
-        <!--android:layout_width="60dp"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_toRightOf="@id/pickerHours">-->
-
-        <!--</NumberPicker>-->
-
         <TimePicker
             android:id="@+id/timePicker"
             android:layout_width="match_parent"
@@ -74,40 +58,6 @@
             android:timePickerMode="spinner">
 
         </TimePicker>
-
-        <!--<android.support.v7.widget.RecyclerView
-            android:id="@+id/rvHours"
-            android:layout_width="80dp"
-            android:layout_height="match_parent">
-
-        </android.support.v7.widget.RecyclerView>
-
-        <TextView
-            android:id="@+id/tvTimeSeparator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/rvHours"
-            android:text=":"
-            android:textSize="20sp" />
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvMinutes"
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_toRightOf="@id/tvTimeSeparator">
-
-        </android.support.v7.widget.RecyclerView>-->
-
-        <!-- <View
-             android:layout_width="match_parent"
-             android:layout_height="1dp"
-             android:background="#000" />
-
-         <View
-             android:layout_width="match_parent"
-             android:layout_height="1dp"
-             android:background="#000" />-->
 
     </RelativeLayout>
 

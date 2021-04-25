@@ -1,13 +1,13 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
 import android.util.Log
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.*
-import com.archit.calendardaterangepicker.customviews.DateTiming.END
-import com.archit.calendardaterangepicker.customviews.DateTiming.START
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.*
+import com.yehia.mira_calendar_date_range.customviews.CalendarDateRangeManager.DateSelectionState
+import com.yehia.mira_calendar_date_range.customviews.CalendarDateRangeManager.DateSelectionState.*
+import com.yehia.mira_calendar_date_range.customviews.DateTiming.END
+import com.yehia.mira_calendar_date_range.customviews.DateTiming.START
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.*
 import java.util.*
 
 internal class CalendarDateRangeManagerImpl(startMonthDate: Calendar,

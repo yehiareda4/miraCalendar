@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
 import android.content.Context
 import android.graphics.Typeface
@@ -12,10 +12,10 @@ import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener
-import com.archit.calendardaterangepicker.R
-import com.archit.calendardaterangepicker.R.layout
-import com.archit.calendardaterangepicker.models.CalendarStyleAttrImpl
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
+import com.yehia.mira_calendar_date_range.R
+import com.yehia.mira_calendar_date_range.R.layout
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttrImpl
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes
 import java.text.DateFormatSymbols
 import java.util.*
 

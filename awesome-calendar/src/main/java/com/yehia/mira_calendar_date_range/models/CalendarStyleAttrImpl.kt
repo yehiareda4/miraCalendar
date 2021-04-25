@@ -1,15 +1,15 @@
-package com.archit.calendardaterangepicker.models
+package com.yehia.mira_calendar_date_range.models
 
 import android.content.Context
 import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.core.content.ContextCompat
-import com.archit.calendardaterangepicker.R
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.Companion.DEFAULT_FIXED_DAYS_SELECTION
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FREE_RANGE
+import com.yehia.mira_calendar_date_range.R
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.Companion.DEFAULT_FIXED_DAYS_SELECTION
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.FREE_RANGE
 
 class CalendarStyleAttrImpl(context: Context, attributeSet: AttributeSet? = null) : CalendarStyleAttributes {
     override var fonts: Typeface? = null

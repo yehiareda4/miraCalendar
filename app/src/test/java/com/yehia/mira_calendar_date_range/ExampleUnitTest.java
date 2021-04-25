@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker;
+package com.yehia.mira_calendar_date_range;
 
 import org.junit.Test;
 

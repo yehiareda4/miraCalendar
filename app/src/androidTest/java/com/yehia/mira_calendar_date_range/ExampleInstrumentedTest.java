@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker;
+package com.yehia.mira_calendar_date_range;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

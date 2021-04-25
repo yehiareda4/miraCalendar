@@ -4,12 +4,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.archit.calendardaterangepicker.customviews.DateRangeMonthView
+    <com.yehia.mira_calendar_date_range.customviews.DateRangeMonthView
         android:id="@+id/cvEventCalendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-    </com.archit.calendardaterangepicker.customviews.DateRangeMonthView>
+    </com.yehia.mira_calendar_date_range.customviews.DateRangeMonthView>
 
 </LinearLayout>

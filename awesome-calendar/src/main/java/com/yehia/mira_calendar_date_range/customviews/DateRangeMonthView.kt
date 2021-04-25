@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -9,19 +9,19 @@ import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
-import com.archit.calendardaterangepicker.R
-import com.archit.calendardaterangepicker.R.*
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.*
-import com.archit.calendardaterangepicker.customviews.CalendarDateRangeManager.DateSelectionState.START_END_SAME
-import com.archit.calendardaterangepicker.customviews.DateTiming.NONE
-import com.archit.calendardaterangepicker.customviews.DateView.Companion.getContainerKey
-import com.archit.calendardaterangepicker.customviews.DateView.DateState
-import com.archit.calendardaterangepicker.customviews.DateView.DateState.*
-import com.archit.calendardaterangepicker.customviews.DateView.OnDateClickListener
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.*
-import com.archit.calendardaterangepicker.timepicker.AwesomeTimePickerDialog
-import com.archit.calendardaterangepicker.timepicker.AwesomeTimePickerDialog.TimePickerCallback
+import com.yehia.mira_calendar_date_range.R
+import com.yehia.mira_calendar_date_range.R.*
+import com.yehia.mira_calendar_date_range.customviews.CalendarDateRangeManager.DateSelectionState.*
+import com.yehia.mira_calendar_date_range.customviews.CalendarDateRangeManager.DateSelectionState.START_END_SAME
+import com.yehia.mira_calendar_date_range.customviews.DateTiming.NONE
+import com.yehia.mira_calendar_date_range.customviews.DateView.Companion.getContainerKey
+import com.yehia.mira_calendar_date_range.customviews.DateView.DateState
+import com.yehia.mira_calendar_date_range.customviews.DateView.DateState.*
+import com.yehia.mira_calendar_date_range.customviews.DateView.OnDateClickListener
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.*
+import com.yehia.mira_calendar_date_range.timepicker.AwesomeTimePickerDialog
+import com.yehia.mira_calendar_date_range.timepicker.AwesomeTimePickerDialog.TimePickerCallback
 import java.util.*
 
 /**

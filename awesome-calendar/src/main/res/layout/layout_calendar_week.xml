@@ -7,31 +7,31 @@
     android:minHeight="@dimen/_34sdp"
     android:orientation="horizontal">
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 
-    <com.archit.calendardaterangepicker.customviews.CustomDateView
+    <com.yehia.mira_calendar_date_range.customviews.CustomDateView
         style="@style/ContainerDayOfWeek"
         android:layout_weight="1" />
 

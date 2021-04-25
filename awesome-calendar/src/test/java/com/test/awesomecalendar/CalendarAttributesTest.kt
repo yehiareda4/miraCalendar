@@ -2,12 +2,12 @@ package com.test.awesomecalendar
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.archit.calendardaterangepicker.models.CalendarStyleAttrImpl
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes.DateSelectionMode.SINGLE
-import com.archit.calendardaterangepicker.models.InvalidCalendarAttributeException
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttrImpl
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.FIXED_RANGE
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes.DateSelectionMode.SINGLE
+import com.yehia.mira_calendar_date_range.models.InvalidCalendarAttributeException
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith

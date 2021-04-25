@@ -1,7 +1,7 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
-import com.archit.calendardaterangepicker.customviews.DateTiming.END
-import com.archit.calendardaterangepicker.customviews.DateTiming.START
+import com.yehia.mira_calendar_date_range.customviews.DateTiming.END
+import com.yehia.mira_calendar_date_range.customviews.DateTiming.START
 import java.text.SimpleDateFormat
 import java.util.*
 

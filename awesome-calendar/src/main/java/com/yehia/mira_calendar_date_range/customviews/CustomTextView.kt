@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
 import android.content.Context
 import android.util.AttributeSet

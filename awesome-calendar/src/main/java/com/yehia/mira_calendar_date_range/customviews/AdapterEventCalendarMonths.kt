@@ -1,4 +1,4 @@
-package com.archit.calendardaterangepicker.customviews
+package com.yehia.mira_calendar_date_range.customviews
 
 import android.content.Context
 import android.os.Handler
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
-import com.archit.calendardaterangepicker.R.id
-import com.archit.calendardaterangepicker.R.layout
-import com.archit.calendardaterangepicker.models.CalendarStyleAttributes
+import com.yehia.mira_calendar_date_range.R.id
+import com.yehia.mira_calendar_date_range.R.layout
+import com.yehia.mira_calendar_date_range.models.CalendarStyleAttributes
 import java.util.*
 
 internal class AdapterEventCalendarMonths(private val mContext: Context,
