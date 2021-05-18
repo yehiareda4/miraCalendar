@@ -1,11 +1,20 @@
 <resources>
-    <string name="cdrp_mon">الاثنين</string>
-    <string name="cdrp_tue">الثلاثاء</string>
-    <string name="cdrp_wed">الاربعاء</string>
-    <string name="cdrp_thu">الخميس</string>
-    <string name="cdrp_fri">الجمعة</string>
-    <string name="cdrp_sat">السبت</string>
-    <string name="cdrp_sun">الاحد</string>
+<!--    <string name="cdrp_mon">الاثنين</string>-->
+<!--    <string name="cdrp_tue">الثلاثاء</string>-->
+<!--    <string name="cdrp_wed">الاربعاء</string>-->
+<!--    <string name="cdrp_thu">الخميس</string>-->
+<!--    <string name="cdrp_fri">الجمعة</string>-->
+<!--    <string name="cdrp_sat">السبت</string>-->
+<!--    <string name="cdrp_sun">الاحد</string>-->
+
+
+    <string name="cdrp_mon">إ</string>
+    <string name="cdrp_tue">ث</string>
+    <string name="cdrp_wed">أ</string>
+    <string name="cdrp_thu">خ</string>
+    <string name="cdrp_fri">ج</string>
+    <string name="cdrp_sat">س</string>
+    <string name="cdrp_sun">أ</string>
 
     <string name="cdrp_m">إ</string>
     <string name="cdrp_tu">ث</string>

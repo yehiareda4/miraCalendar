@@ -29,7 +29,7 @@ internal class AdapterEventCalendarMonths2(private val mContext: Context,
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val modelObject = mDateRangeCalendarManager.getVisibleMonthDataList()[position]
         val inflater = LayoutInflater.from(mContext)
-        val layout = inflater.inflate(layout.layout_pager_month, container, false) as ViewGroup
+        val layout = inflater.inflate(layout.layout_pager_month2, container, false) as ViewGroup
         val dateRangeMonthView: DateRangeMonthView2 = layout.findViewById(id.cvEventCalendarView)
         dateRangeMonthView.drawCalendarForMonth(mCalendarStyleAttr, getCurrentMonth(modelObject), mDateRangeCalendarManager)
         dateRangeMonthView.setCalendarListener(calendarAdapterListener)

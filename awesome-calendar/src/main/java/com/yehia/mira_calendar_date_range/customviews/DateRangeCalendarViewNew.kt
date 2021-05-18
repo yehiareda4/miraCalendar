@@ -23,7 +23,7 @@ class DateRangeCalendarViewNew : LinearLayout, DateRangeCalendarViewApi {
     private lateinit var tvYearTitle: CustomTextView
     private lateinit var imgVNavLeft: AppCompatImageView
     private lateinit var imgVNavRight: AppCompatImageView
-    private lateinit var adapterEventCalendarMonths: AdapterEventCalendarMonths2
+    private lateinit var adapterEventCalendarMonths: AdapterEventCalendarMonths
     private lateinit var locale: Locale
     private lateinit var vpCalendar: ViewPager
     private lateinit var calendarStyleAttr: CalendarStyleAttributes
@@ -58,7 +58,7 @@ class DateRangeCalendarViewNew : LinearLayout, DateRangeCalendarViewApi {
         val defEndMonth = Calendar.getInstance().clone() as Calendar
         defEndMonth.add(Calendar.MONTH, TOTAL_ALLOWED_MONTHS)
         mDateRangeCalendarManager = CalendarDateRangeManagerImpl(defStartMonth, defEndMonth, calendarStyleAttr)
-        adapterEventCalendarMonths = AdapterEventCalendarMonths2(context, mDateRangeCalendarManager, calendarStyleAttr)
+        adapterEventCalendarMonths = AdapterEventCalendarMonths(context, mDateRangeCalendarManager, calendarStyleAttr)
         vpCalendar.adapter = adapterEventCalendarMonths
         vpCalendar.offscreenPageLimit = 0
         vpCalendar.currentItem = TOTAL_ALLOWED_MONTHS

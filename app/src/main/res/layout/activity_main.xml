@@ -15,7 +15,7 @@
         android:layout_marginEnd="20dp"
         custom:cardCornerRadius="8dp">
 
-        <com.yehia.mira_calendar_date_range.customviews.DateRangeCalendarView
+        <com.yehia.mira_calendar_date_range.customviews.DateRangeCalendarViewNew
             android:id="@+id/cdrvCalendar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             custom:selected_date_circle_color="@color/selected_date_circle_color_app"
             custom:week_offset="0">
 
-        </com.yehia.mira_calendar_date_range.customviews.DateRangeCalendarView>
+        </com.yehia.mira_calendar_date_range.customviews.DateRangeCalendarViewNew>
 
     </androidx.cardview.widget.CardView>
 
