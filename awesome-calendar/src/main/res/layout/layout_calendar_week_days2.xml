@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llTitleWeekContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek1"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek1"
+            android:text="@string/cdrp_su" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek2"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek2"
+            android:text="@string/cdrp_m" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek3"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek3"
+            android:text="@string/cdrp_tu" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek4"
+            style="@style/WeekDayTitleStyle"
+            android:tag="dayOfWeek4"
+            android:text="@string/cdrp_w" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek5"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek5"
+            android:text="@string/cdrp_th" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek6"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek6"
+            android:text="@string/cdrp_f" />
+
+        <com.yehia.mira_calendar_date_range.customviews.CustomTextView
+            android:id="@+id/tvDayOfWeek7"
+            style="@style/WeekDayTitleStyle"
+            android:layout_weight="1"
+            android:tag="dayOfWeek7"
+            android:text="@string/cdrp_sa" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_underLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="#E8E8E8"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

@@ -7,6 +7,14 @@
     <string name="cdrp_sat">Sab</string>
     <string name="cdrp_sun">Dom</string>
 
+    <string name="cdrp_m">S</string>
+    <string name="cdrp_tu">T</string>
+    <string name="cdrp_w">Q</string>
+    <string name="cdrp_th">Q</string>
+    <string name="cdrp_f">S</string>
+    <string name="cdrp_sa">S</string>
+    <string name="cdrp_su">D</string>
+
     <string-array name="week_sun_sat">
         <item>@string/cdrp_sun</item>
         <item>@string/cdrp_mon</item>

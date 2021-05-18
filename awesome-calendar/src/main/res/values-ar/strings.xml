@@ -7,6 +7,14 @@
     <string name="cdrp_sat">السبت</string>
     <string name="cdrp_sun">الاحد</string>
 
+    <string name="cdrp_m">إ</string>
+    <string name="cdrp_tu">ث</string>
+    <string name="cdrp_w">أ</string>
+    <string name="cdrp_th">خ</string>
+    <string name="cdrp_f">ج</string>
+    <string name="cdrp_sa">س</string>
+    <string name="cdrp_su">أ</string>
+
     <string-array name="week_sun_sat">
         <item>@string/cdrp_sun</item>
         <item>@string/cdrp_mon</item>

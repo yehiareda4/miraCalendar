@@ -54,6 +54,10 @@ android {
             includeAndroidResources = true
         }
     }
+    dataBinding {
+        //noinspection DataBindingWithoutKapt
+        enabled = true
+    }
 }
 
 dependencies {

@@ -7,6 +7,14 @@
     <string name="cdrp_sat">Сб</string>
     <string name="cdrp_sun">Вс</string>
 
+    <string name="cdrp_m">П</string>
+    <string name="cdrp_tu">В</string>
+    <string name="cdrp_w">С</string>
+    <string name="cdrp_th">Ч</string>
+    <string name="cdrp_f">П</string>
+    <string name="cdrp_sa">С</string>
+    <string name="cdrp_su">В</string>
+
     <string-array name="week_sun_sat">
         <item>@string/cdrp_sun</item>
         <item>@string/cdrp_mon</item>
